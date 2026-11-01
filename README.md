@@ -5,7 +5,6 @@ A collection of sorting algorithms implemented in C++, covering fundamental sort
 ## Contents
 
 ### 1. Sorting Fundamentals
-
 - Introduction to sorting algorithms
 - Time and space complexity
 - Best, average, and worst-case analysis
@@ -15,28 +14,24 @@ A collection of sorting algorithms implemented in C++, covering fundamental sort
 - Comparison-based and non-comparison-based sorting
 
 ### 2. Bubble Sort
-
 - Algorithm and implementation
 - Optimized Bubble Sort
 - Time and space complexity
 - Stability and adaptiveness
 
 ### 3. Selection Sort
-
 - Algorithm and implementation
 - Minimum element selection
 - Time and space complexity
 - Stability and swap analysis
 
 ### 4. Insertion Sort
-
 - Algorithm and implementation
 - Element shifting and insertion
 - Time and space complexity
 - Performance on nearly sorted arrays
 
 ### 5. Merge Sort
-
 - Divide-and-conquer approach
 - Merging sorted arrays
 - Recursive implementation
@@ -45,7 +40,6 @@ A collection of sorting algorithms implemented in C++, covering fundamental sort
 - Related LeetCode problems
 
 ### 6. Quick Sort
-
 - Partitioning
 - Pivot selection strategies
 - Recursive implementation
@@ -54,7 +48,6 @@ A collection of sorting algorithms implemented in C++, covering fundamental sort
 - Related concepts and problems
 
 ### 7. Counting Sort
-
 - Frequency counting
 - Sorting within a limited value range
 - Stable Counting Sort implementation
@@ -62,7 +55,6 @@ A collection of sorting algorithms implemented in C++, covering fundamental sort
 - Limitations
 
 ### 8. Radix Sort
-
 - Digit-by-digit sorting
 - Least Significant Digit (LSD) approach
 - Stable sorting as a requirement
@@ -70,7 +62,6 @@ A collection of sorting algorithms implemented in C++, covering fundamental sort
 - Limitations and use cases
 
 ### 9. Bucket Sort
-
 - Bucket creation and distribution
 - Sorting individual buckets
 - Combining sorted buckets
@@ -78,7 +69,6 @@ A collection of sorting algorithms implemented in C++, covering fundamental sort
 - Use cases and limitations
 
 ### 10. Heap Sort
-
 - Heap fundamentals
 - Max-heap construction
 - Heapify operation
@@ -87,7 +77,6 @@ A collection of sorting algorithms implemented in C++, covering fundamental sort
 - In-place sorting and stability
 
 ### 11. C++ STL Sorting
-
 - `sort()`
 - `stable_sort()`
 - Sorting arrays and vectors
@@ -97,7 +86,6 @@ A collection of sorting algorithms implemented in C++, covering fundamental sort
 - Sorting objects and pairs
 
 ### 12. LeetCode Practice
-
 - Problems involving sorting
 - Sorting-based problem-solving patterns
 - Custom sorting and comparators
@@ -108,26 +96,27 @@ A collection of sorting algorithms implemented in C++, covering fundamental sort
 ```text
 sorting_cpp/
 ├── README.md
-├── bubble_sort.cpp
-├── selection_sort.cpp
-├── insertion_sort.cpp
-├── merge_sort.cpp
-├── quick_sort.cpp
-├── counting_sort.cpp
-├── radix_sort.cpp
-├── bucket_sort.cpp
-├── heap_sort.cpp
-├── stl_sorting.cpp
+├── bubblesort.cpp
+├── selectionsort.cpp
+├── insertionsort.cpp
+├── mergesort.cpp
+├── quicksort.cpp
+├── coutingsort.cpp
+├── radixsort.cpp
+├── bucketsort.cpp
+├── heapsort.cpp
+├── sort_stl.cpp
+├── stable_sort_stl.cpp
+├── custom_comparators_stl.cpp
+├── lambda_function_as_comparator.cpp
 └── leetcode/
-    └── ...
-```
-
-The repository structure may evolve as additional implementations and practice problems are added.
-
-## Language
-
-C++
-
-## Objective
-
-To develop a clear understanding of sorting algorithms, their implementations, performance characteristics, limitations, and practical applications in Data Structures and Algorithms.
+    ├── 0075_sort_colors.cpp
+    ├── 0088_merge_sorted_array.cpp
+    ├── 0056_merge_intervals.cpp
+    ├── 0057_insert_interval.cpp
+    ├── 0148_sort_list.cpp
+    ├── 0179_largest_number.cpp
+    ├── 0215_kth_largest_element.cpp
+    ├── 0452_min_arrows_burst_balloons.cpp
+    ├── 0912_sort_an_array.cpp
+    └── 0973_k_closest_points_to_origin.cpp
